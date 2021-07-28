@@ -202,5 +202,6 @@ i {
 
    .card {
       bottom: 80px;
+      padding: 1.125rem 1rem 2.125rem 2rem;
    }
 }
