@@ -178,3 +178,29 @@ i {
    }
 }
 
+@media screen and (max-width: 768px){
+   .menu {
+      display: none;
+   }
+   body {
+      padding: 2.625rem 0;
+   }
+   header {
+      margin-bottom: 0 !important;
+   }
+   main {
+      flex-direction:  column;
+   }
+
+   .principal , .image {
+      width: 100%;
+   }
+
+   .principal {
+      padding-right: 7rem;
+   }
+
+   .card {
+      bottom: 80px;
+   }
+}
